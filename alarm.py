@@ -3,7 +3,7 @@
 from os import popen
 from re import search, match
 
-PREVIOUS_ALARMS = 'PrevAlarm.hist'
+PREVIOUS_ALARMS = './PrevAlarm.hist'
 
 
 def alarm_set():
